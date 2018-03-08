@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <title>HTML Forms</title>
+  </head>
+  <body>
+    <div>This is an HTML Forms Practice</div>
+    <form>
+      <div>Type in your first name:</div>
+      <input type="text" name="firstname" placeholder="First Name">
+
+      <div>Type in your last name:</div>
+      <input type="text" name="lastname" placeholder="Last Name">
+
+      <div>Enter your birthday:</div>
+      <input type="date" name="bday">
+
+      <div>What's your favorite car?</div>
+      <input type="radio" name="car" value="tesla" checked> Tesla
+      <input type="radio" name="car" value="ford"> Ford
+      <input type="radio" name="car" value="batmobile"> Batmobile
+
+      <div>Favorite Social Media?</div>
+      <select name="social">
+        <option value="twitter">Twitter</option>
+        <option value="facebook">Facebook</option>
+        <option value="sc">Snapchat</option>
+        <option value="insta">Instagram</option>
+        <option value="reddit">Reddit</option>
+      </select>
+
+      <div>Types of shows?</div>
+      <input type="checkbox" name="shows" value="movies"> I like movies <br>
+      <input type="checkbox" name="shows" value="tvshows"> I like TV shows <br>
+      <input type="checkbox" name="shows" value="plays"> I like plays
+
+      <div>Do you agree to the terms of use?</div>
+      <input type="checkbox" name="terms" value="terms" checked="checked"> Agree?
+
+      <div>Type in your random comment here:</div>
+      <textarea name="comment" placeholder="Add a random comment"></textarea>
+
+      <br>
+      <button onclick="submit">Submit this form!</button>
+    </form>
+  </body>
+</html>
